@@ -1,0 +1,21 @@
+注释：-- （ 空格后接内容 ） 
+注释： #
+列出所有数据库：SHOW DATABASES
+
+查看某个表：USE databasename;
+            show tables from (+库名)；
+      selsect now();时间函数，目前的时间；
+     select database();查看目前使用的库名；
+     select version（） 查看版本；
+     select user（）；查看当前登录的用户；
+     select @@datadir；查看mysql安装路径；
+     select @@version_compile_os
+     
+     select * from mysql.user; 查询数据；
+     
+     
+     利用 注释从而获取隐藏数据
+     
+     注： 先打一个 ' 在输入框，如果网站报出语法错误，那么该网址存在sql注入点！！！
+     
+     

